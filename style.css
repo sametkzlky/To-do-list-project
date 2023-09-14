@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+.container{
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.16);
+    width: 450px;
+    height: 680px;
+    text-align: center;
+    font-family: "poppins",sans-serif;    
+}
+.title{
+    margin: 12px 0;
+}
+.add-elements{
+    margin: 12px 0;
+}
+.input{
+    padding: 6px 4px;
+    width: 70%;
+}
+.btn{
+    padding: 7px 14px;
+    background-color: #00beff;
+    border: none;
+    border-radius: 4px;
+    color: rgb(240, 234, 234);
+    cursor: pointer;
+}
+.btn:hover{
+   background-color: #266dbe;
+}
+.element-group{
+    height: 550px;
+    overflow-y: scroll;
+    z-index: -1;
+}
+.element-group::-webkit-scrollbar{
+    display: none;
+}
+.element-group_list{
+    padding: 15px;
+}
+.element-group_list_item{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin: 12px 0;
+    box-shadow:  0 2px 8px rgb(0, 0, 0,0.16);
+    border-radius: 4px;
+}
+.element-group_list_item:hover{
+    background-color: #f7f3f3;
+}
+.checked{
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
